@@ -1,0 +1,44 @@
+<resources>
+    <!--登入畫面-->
+    <string name="app_name">寵物餐廳管理系統</string>
+    <string name="txtSign_title">寵物餐廳管理系統</string>
+    <string name="txtSign_account">帳號：</string>
+    <string name="txtSign_password">密碼：</string>
+    <string name="txtSign_account_hint">(請輸入帳號)</string>
+    <string name="txtSign_password_hint">(請輸入密碼)</string>
+    <string name="txtSign_signin">登入</string>
+    <string name="txtSign_exit">離開</string>
+    <!--點餐畫面-->
+    <string name="txtOrder_tab_mainMeal_">主餐</string>
+    <string name="txtOrder_tab_subMeal">副菜</string>
+    <string name="txtOrder_tab_Drink">飲品</string>
+    <string name="txtOrder_tab_Ｄessert">點心</string>
+    <string name="txtOrder_btnClear">清除</string>
+    <string name="txtOrder_btnDeal">結帳</string>
+    <string name="txtOrder_titleDeal">結帳資訊</string>
+    <!--點餐畫面-右-->
+    <string name="txtOrder_no">桌號：</string>
+
+    <string name="txtMealDemo1">炒飯\n50元</string>
+    <string name="txtMealDemo2">蛋炒飯\n60元</string>
+    <string name="txtMealDemo3">海鮮義大利麵\n80元</string>
+    <string name="txtMealDemo4">蕃茄義大利麵\n70元</string>
+    <string name="txtMealDemo5">湯麵\n70元</string>
+    <string name="txtMealDemo6">雞肉丼\n120元</string>
+    <string name="txtMealDemo7">牛排套餐\n200元</string>
+    <string name="txtMealDemo8">豬肉丼飯\n120元</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--訂位預約-排程-->
+    <string name="txtServNo">編號</string>
+    <string name="txtServName">姓名</string>
+    <string name="txtServTel">聯絡電話</string>
+    <string name="txtServTime">預約時間</string>
+    <string name="txtServNum">人數</string>
+    <string name="txtServNote">備註</string>
+    <string name="txtServState">狀態</string>
+    <string name="txtServBtnRevise">修改</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

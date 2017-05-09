@@ -1,0 +1,244 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mac.prmsdemo.fragment_servication">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="true"
+        android:padding="10dip" >
+
+        <TableRow android:layout_margin="0.5dp"
+            android:background="@drawable/shape_top_corner_no_bottom_line">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.2"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServNo"
+                android:background="#FFFFFF"
+                android:layout_margin="0.5dp"
+                android:padding="10dip"
+                android:layout_marginRight="10dip" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServName" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServTel" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServTime" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServNum" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServNote" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/txtServState"></TextView>
+
+        </TableRow>
+
+        <TableRow android:layout_margin="0.5dp"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:padding="10dip" >
+
+        <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.2"
+                android:gravity="center_horizontal"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="Peter" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0912345678" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="上午9點15分 ~ 上午9點30分" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="3人2寵" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="1大型犬 2兒童" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:text="過期" />
+        </TableRow>
+
+        <TableRow android:layout_margin="0.5dp"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:padding="10dip" >
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.2"
+                android:gravity="center_horizontal"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="Sam" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0912345679" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="上午10點00分 ~ 上午10點15分" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="2人1寵" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="1大型犬" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/coloroDone"
+                android:gravity="center_horizontal"
+                android:text="已完成" />
+        </TableRow>
+
+        <TableRow android:layout_margin="0.5dp"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.2"
+                android:gravity="center_horizontal"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="Mary" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0912345639" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="上午11點30分 ~ 上午11點45分" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="0.8"
+                android:gravity="center_horizontal"
+                android:text="5人2寵" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="無" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@color/colorService"
+                android:gravity="center_horizontal"
+                android:text="預約" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_bottom_corner_no_top_line"
+            android:padding="10dip" />
+    </TableLayout>
+
+</FrameLayout>
